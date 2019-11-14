@@ -26,8 +26,6 @@ This tool runs on Python3.
 
 You need to install a couple of libs from the requirements.txt
 
-There will be installed:
-
 
 ```
 PyYAML==5.1.2
@@ -45,7 +43,7 @@ pip3 install -r requirements.txt
 ```
 
 
-## Running the scipt
+## Running the script
 
 You can check for / create a CAA record with:
 
