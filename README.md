@@ -22,10 +22,6 @@ git clone .git
 
 This tool runs on Python3. 
 
-```
-Give examples
-```
-
 ### Installing
 
 You need to install a couple of libs from the requirements.txt
