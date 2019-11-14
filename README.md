@@ -34,7 +34,7 @@ There will be installed:
 
 
 ```
-PyYAML==3.13
+PyYAML==5.1.2
 dnspython==1.16.0
 tqdm==4.31.1
 Click==7.0
