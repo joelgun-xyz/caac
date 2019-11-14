@@ -15,7 +15,7 @@ It creates records for following DNS:
 Clone the repo with 
 
 ```
-git clone .git
+git clone https://github.com/joelgun-xyz/caac.git
 ```
 
 ### Prerequisites
