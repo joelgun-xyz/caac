@@ -1,0 +1,36 @@
+
+Here are some examples. 
+
+
+Generic
+For Google Cloud DNS, Route 53, DNSimple, and other hosted DNS services
+
+    Name	        Type	Value
+    example.com.	CAA	    0 issue ";"
+                            0 issuewild "quovadisglobal.com"
+                            0 issuewild "trustwave.com"
+
+
+Standard Zone File
+For BIND ≥9.9.6, PowerDNS ≥4.0.0, NSD ≥4.0.1, Knot DNS ≥2.2.0
+
+    example.com.	IN	CAA	0 issue ";"
+    example.com.	IN	CAA	0 issuewild "quovadisglobal.com"
+    example.com.	IN	CAA	0 issuewild "trustwave.com"
+    
+Legacy Zone File (RFC 3597 Syntax)
+For BIND <9.9.6, NSD <4.0.1, Windows Server 2016
+
+    example.com.	IN	TYPE257	\# 8 000569737375653B
+    example.com.	IN	TYPE257	\# 29 0009697373756577696C6471756F7661646973676C6F62616C2E636F6D
+    example.com.	IN	TYPE257	\# 24 0009697373756577696C647472757374776176652E636F6D
+
+tinydns
+    :example.com:257:\000\005\151\163\163\165\145\073
+    :example.com:257:\000\011\151\163\163\165\145\167\151\154\144\161\165\157\166\141\144\151\163\147\154\157\142\141\154\056\143\157\155
+    :example.com:257:\000\011\151\163\163\165\145\167\151\154\144\164\162\165\163\164\167\141\166\145\056\143\157\155
+
+dnsmasq
+    --dns-rr=example.com,257,000569737375653B
+    --dns-rr=example.com,257,0009697373756577696C6471756F7661646973676C6F62616C2E636F6D
+    --dns-rr=example.com,257,0009697373756577696C647472757374776176652E636F6D

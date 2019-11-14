@@ -1,0 +1,6 @@
+PyYAML==3.13
+dnspython==1.16.0
+tqdm==4.31.1
+Click==7.0
+click-plugins==1.0.4
+requests==2.22.0
