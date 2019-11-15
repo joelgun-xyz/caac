@@ -58,7 +58,7 @@ You can check several domains for CAA records with:
 python3 caac.py -bd example.com,example2.com,example.com
 ```
 
-### Break down into end to end tests
+### Output
 
 Sample CAA check output:
 
