@@ -64,7 +64,7 @@ Sample CAA check output:
 
 
 ```
-[ +++ ] Found an entry for "raiffeisen.ch"!
+[ +++ ] Found an entry for "raiffi.ch"!
 
 raiffi.ch. 0 iodef "mailto:ca@raiffi.ch" 
 raiffi.ch. 0 issue "amazon.com" 
@@ -86,7 +86,7 @@ Do you want to create one? [y/N]:
 
 ## Authors
 
-* **joelgun** - *Initial work* - [PurpleBooth](https://twitter.com/joelgun
+* **joelgun** - *Initial work* - up(https://twitter.com/joelgun
 
 ## License
 
