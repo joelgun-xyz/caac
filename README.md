@@ -1,6 +1,6 @@
 # CAAC - CAA record checker
 
-This little tools lets you check / create a CAA Record for one domain or check several domains if a records exists. 
+This little tools lets you check / create a CAA Record for one domain or check several domains if a record exists. 
 It creates records for following DNS:
 
 
